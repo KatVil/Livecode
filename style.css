@@ -1,0 +1,391 @@
+header,
+footer{
+    flex: 0 0 content;
+}
+
+h1, h1.sec{/* Thrivetalk */
+
+margin: 0;
+padding: 0;
+
+
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+
+color: #62D0DF;}
+
+h1{display: flex;
+justify-content: flex-start;
+width: 484px;
+height: 27px;
+left: 179px;
+top: 27px;}
+
+
+main{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    min-height: 100vh;
+    width: 100vh;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+nav.menu {
+    width: max-content;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    -ms-flex-align: baseline;
+    flex-wrap: wrap-reverse;
+    margin: 15;
+    padding: 10px 10px 10px;
+    gap: 15px;
+    width: 500px;
+    height: 14px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 12px;
+    line-height: 10px;
+    color: #22356F;
+}
+
+
+aside{
+    width: 20 vh;
+}
+
+section{
+    flex: 1;
+}
+
+h2{
+    position: absolute;
+    display: flex;
+justify-content:center;
+width: 484px;
+height: 27px;
+left: 179px;
+top: 127px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 36px;
+line-height: 27px;
+letter-spacing: -0.006em;
+
+color: #FFFFFF;
+
+}
+h4{
+    position: absolute;
+width: 290px;
+height: 21px;
+left: 520px;
+top: 1882px;
+font-weight: lighter;
+font-family: 'Larsseit', sans-serif;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: rgba(34, 53, 111, 0.5);
+}
+
+h5{
+    position: absolute;
+width: 201px;
+height: 210px;
+left: -106px;
+top: 1902px;
+font-weight: lighter;
+font-family: 'Larsseit', sans-serif;
+font-size: 16px;
+line-height: 29px;
+letter-spacing: 0.06em;
+margin: 25 25 25;
+padding-bottom: 34;
+color: #22356F;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid violet;
+    align-content: center;
+    height: 40vh;
+}
+
+.sec{
+    display: flex;
+    justify-content: flex-start;
+align-items:flex-start;
+width: 5px;
+height: 7px;
+left: 9px;
+top: 27px;
+}
+
+.button{
+    position: absolute;
+    align-items: baseline;
+    flex-direction: initial;
+    flex-shrink: 1;
+width: 120px;
+height: 50px;
+left: 751px;
+top: 1px;
+margin: 5;
+padding: 0;
+background: #62D0DF;
+border-radius: 45px;
+}
+
+.rectangle{
+    position: absolute;
+    display: flex;
+    flex:1;
+    width: 1117px;
+    height: 840px;
+    left: 0px;
+    top: 0px;
+    background: #F4F9E2;
+    width: 100%;
+}
+
+.contact{position: absolute;
+    align-items: baseline;
+    flex-direction: initial;
+    flex-shrink: 1;
+width: 120px;
+height: 50px;
+left: 13px;
+top: 14px;
+margin: 5;
+padding: 0;
+font-family: 'Larsseit', sans-serif;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+border:0;
+background-color: #22356F00;
+text-decoration: none;
+color: #FFFFFF;}
+
+.text0{
+
+position: absolute;
+width: 484px;
+height: 167px;
+left: 179px;
+top: 305px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 48px;
+line-height: 53px;
+letter-spacing: -0.035em;
+
+color: #22356F;
+}
+.text1{
+position: absolute;
+width: 469px;
+height: 161px;
+left: 179px;
+top: 491px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 42px;
+
+color: #22356F;
+}
+.img1{
+position: absolute;
+width: 707.71px;
+height: 444.93px;
+left: 729.93px;
+top: -70.66px;
+
+background: #EDFDFF;
+border-radius: 312.159px;
+transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+}
+.img2{
+position: absolute;
+width: 522px;
+height: 607px;
+left: 718px;
+top: 62px;
+background: url(./linkedin-sales-navigator-406825.png);
+}
+.item0{
+text-decoration: none;
+font-family: 'Larsseit', sans-serif;
+    font-size: 12px;}
+
+.rectangle1{position: absolute;
+width: 1437px;
+height: 607px;
+left: 1px;
+top: 842px;
+width: 100%;
+background: #62D0DF;}
+
+.article1{
+position: absolute;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+text-align: left;
+top: 330px;
+margin:100 0 10;
+padding: 100 0 10;
+width: 555;
+height:235;
+/*width: 1437px;
+height: 607px;
+left: 1px;
+top: 842px;*/
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+
+.img3{
+position: absolute;
+width: 522px;
+height: 607px;
+left: 918px;
+top: 842px;
+background: url(./christopher-campbell-40367.png);
+}
+.article2{
+position: absolute;
+width: 592px;
+height: 210px;
+left: 424px;
+top: 1596px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0.005em;
+
+color: #22356F;
+
+}
+.box1{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 0px;
+top: 1927px;
+
+background: #FFE2DE;
+}
+.box2{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 360px;
+top: 1927px;
+
+background: #C4E769;
+}
+.box3{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 720px;
+top: 1927px;
+
+background: #62D0DF;
+}
+.box4{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 1078px;
+top: 1927px;
+
+background: #0052C1;
+}
+.circle1, .circle2, .circle3, .circle4{
+position: absolute;
+width: 9px;
+height: 9px;
+
+top: 2034.25px;
+
+background: #E9B730;
+}
+.circle1{
+left: 54px;
+}
+.circle1{
+left: 414px;
+}
+.circle1{
+left: 774px;
+}
+.circle1{
+left: 1132px;
+}
+.theme1, .theme2, .theme3, .theme4{
+position: absolute;
+width: 232px;
+height: 54px;
+left: 78px;
+top: 2022px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 32px;
+line-height: 34px;
+letter-spacing: -0.006em;
+
+color: #FFFFFF;
+}
+.theme1{
+    width: 360px;
+    height: 360px;
+    left: 0px;
+    top: 1927px;
+    
+}
+.theme2{
+    width: 360px;
+    height: 360px;
+    left: 360px;
+    top: 1927px;
+}
+.theme3{
+    width: 360px;
+    height: 360px;
+    left: 720px;
+    top: 1927px;
+}
+.theme4{
+    width: 360px;
+height: 360px;
+left: 1078px;
+top: 1927px;
+}
+.menu a:hover, .contact:hover{
+text-decoration: underline;
+}
